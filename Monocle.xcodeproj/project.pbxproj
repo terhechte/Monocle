@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D6AEB941B4DCA9C00DDD5E1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6AEB931B4DCA9C00DDD5E1 /* CoreFoundation.framework */; };
 		544A7A9E1A8E1CD70056DE25 /* Monocle.h in Headers */ = {isa = PBXBuildFile; fileRef = 544A7A9D1A8E1CD70056DE25 /* Monocle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544A7AA41A8E1CD70056DE25 /* Monocle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544A7A981A8E1CD70056DE25 /* Monocle.framework */; };
 		544A7AAB1A8E1CD70056DE25 /* LensSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544A7AAA1A8E1CD70056DE25 /* LensSpec.swift */; };
@@ -70,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D6AEB931B4DCA9C00DDD5E1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		544A7A981A8E1CD70056DE25 /* Monocle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Monocle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		544A7A9C1A8E1CD70056DE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544A7A9D1A8E1CD70056DE25 /* Monocle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monocle.h; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6AEB941B4DCA9C00DDD5E1 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +185,7 @@
 		549FBC891A8E27850002D8D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D6AEB931B4DCA9C00DDD5E1 /* CoreFoundation.framework */,
 				549FBC8A1A8E27850002D8D6 /* iOS */,
 				549FBC8D1A8E27850002D8D6 /* Mac */,
 			);
